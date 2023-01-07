@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sv2-oE-lmC">
                                 <rect key="frame" x="95" y="89" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Sv2-oE-lmC" secondAttribute="height" multiplier="112:57" id="XNN-Yi-3ex"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -48,8 +51,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="Sv2-oE-lmC" secondAttribute="top" constant="3" id="4ua-pr-7qE"/>
                             <constraint firstItem="aLj-5B-h1I" firstAttribute="top" secondItem="Sv2-oE-lmC" secondAttribute="bottom" constant="30" id="9Kt-vH-Ed5"/>
                             <constraint firstItem="aLj-5B-h1I" firstAttribute="centerX" secondItem="Sv2-oE-lmC" secondAttribute="centerX" id="9yE-jR-hwb"/>
+                            <constraint firstItem="qZS-kg-JwL" firstAttribute="height" secondItem="aLj-5B-h1I" secondAttribute="height" id="AwJ-8p-4Lq"/>
+                            <constraint firstItem="aLj-5B-h1I" firstAttribute="height" secondItem="Sv2-oE-lmC" secondAttribute="height" id="Mi8-Mi-v8w"/>
                             <constraint firstItem="Sv2-oE-lmC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="R3d-eb-3We"/>
                             <constraint firstItem="qZS-kg-JwL" firstAttribute="top" secondItem="aLj-5B-h1I" secondAttribute="bottom" constant="30" id="leg-Qg-dHg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qZS-kg-JwL" secondAttribute="bottom" constant="20" id="wmb-2L-Znm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dhp-xq-5CR"/>
